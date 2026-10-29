@@ -18,8 +18,8 @@ A mobile-first futuristic dashboard for viewing published Google Sheets data in 
 
 **Privacy:** A published CSV is publicly accessible to anyone with the link. Do not publish confidential or personal data. This app never asks for your Google password.
 
-## Live website
-https://google-sheets-hologram.vercel.app/
+## Live website (Git-connected deployment)
+https://google-sheets-hologram-git.vercel.app/
 
-## Deployment note
-The current website is deployed on Vercel. The GitHub repository is the source copy; automatic GitHub-to-Vercel deployment is not linked yet.
+## Deployment
+The `main` branch is connected to Vercel. Pushes to the GitHub repository trigger deployments automatically.
